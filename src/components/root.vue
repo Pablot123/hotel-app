@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>BIENVENIDO AL HOTEL  -nombre del hotel-</h1>
-        <img src="../assets/logo6.png">
+        <img class="loguito" src="../assets/logo6.png">
         <h2>Siguenos en nustras redes sociales</h2>
         <div>
             <ul>
@@ -43,5 +43,10 @@ ul {
 li {
   display: inline-block;
   margin: 0 40px;
+}
+.loguito{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
