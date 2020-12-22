@@ -81,7 +81,7 @@ import axios from 'axios';
         methods:{
             search: function(){
                 let self = this
-                axios.post("http://127.0.0.1:8000/consultar/", {
+                axios.post("https://hotel-app-g5.herokuapp.com/consultar/", {
                     'email':this.email,
                     'numero_documento':this.numero_documento    
                 }).then(response => {
