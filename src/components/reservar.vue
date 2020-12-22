@@ -98,7 +98,7 @@ export default{
     methods:{
             realizarReserva: function(){
                 let self = this
-                axios.post("http://127.0.0.1:8000/reservar/", {
+                axios.post("https://hotel-app-g5.herokuapp.com/reservar/", {
                     nombre: this.nombre,
                     apellido: this.apellido,
                     email: this.email,
