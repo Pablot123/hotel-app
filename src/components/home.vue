@@ -79,7 +79,7 @@ export default{
   methods:{
     agregarCliente: function(){
       let self = this
-      axios.post("http://127.0.0.1:8000/home",{
+      axios.post("https://hotel-app-g5.herokuapp.com/home",{
         email:this.email,
         nombre:this.nombre,
         apellido:this.apellido,
