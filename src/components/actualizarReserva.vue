@@ -83,7 +83,7 @@ export default{
     methods:{
         actualizarReserva: function(){
             let self = this
-            axios.put("http://127.0.0.1:8000/actualizar/reserva",{
+            axios.put("https://hotel-app-g5.herokuapp.com/actualizar/reserva",{
                 email: this.email,
                 numero_documento: this.numero_documento,
                 date_in: this.date_in,
