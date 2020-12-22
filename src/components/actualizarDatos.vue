@@ -56,7 +56,7 @@ export default{
   methods:{
     actualizarDatos: function(){
       let self = this
-      axios.put("https://hotel-app-g5.herokuapp.com/actualizar/datos_usuario/",
+      axios.put("https://hotel-api-g5.herokuapp.com/actualizar/datos_usuario/",
       {
         nombre: this.nombre,
         apellido: this.apellido,
