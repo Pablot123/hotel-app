@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <img src="../assets/logo6.png">
+    <img class="loguito" src="../assets/logo6.png">
     <h2>Para obtener informacion de promociones y demas, REGISTRATE.</h2>
 
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Registrarme</button>
@@ -221,5 +221,11 @@ hr {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
+}
+
+.loguito{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
